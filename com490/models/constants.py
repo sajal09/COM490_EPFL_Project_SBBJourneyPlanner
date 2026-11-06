@@ -1,0 +1,60 @@
+MODE_MAP = {
+    
+    ## product_id mappings 
+    "ZUG": "TRAIN",
+    "BUS": "BUS",
+    "TRAM": "TRAM",
+    "METRO": "METRO",
+    "SCHIFF": "SHIP",
+    "BAT": "SHIP",
+    "ZAHNRADBAHN": "TRAIN",
+    "TAXI": "TAXI",
+    "WM-BUS": "BUS",
+    "BUA": "BUS",
+    "CS": "OTHER",
+    
+    ## transport mappings
+    # Trains
+    "IC": "TRAIN",
+    "ICE": "TRAIN",
+    "IR": "TRAIN",
+    "IRE": "TRAIN",
+    "RE": "TRAIN",
+    "R": "TRAIN",
+    "RB": "TRAIN",
+    "RJ": "TRAIN",
+    "RJX": "TRAIN",
+    "S": "TRAIN",
+    "SN": "TRAIN",
+    "EC": "TRAIN",
+    "NJ": "TRAIN",
+    "TGV": "TRAIN",
+    "TER": "TRAIN",
+    "FLX": "TRAIN",
+    "EXT": "TRAIN",
+    "ATZ": "TRAIN",
+    "AG": "TRAIN",
+    "PE": "TRAIN",
+    "MAT": "TRAIN",
+    "D": "TRAIN",
+    "CC": "TRAIN",
+    # Buses
+    "B": "BUS",
+    "BN": "BUS",
+    "CAR": "BUS",
+    "EV": "BUS",
+    "EV1": "BUS",
+    "EV2": "BUS",
+    "EV3": "BUS",
+    "EXB": "BUS",
+    "RUB": "BUS",
+    "LG40": "BUS",
+    "85:7250:B": "BUS",
+    # Trams
+    "T": "TRAM",
+    "TN": "TRAM",
+    # Metros
+    "M": "METRO",
+    # Taxis
+    "TAXI": "TAXI",
+}

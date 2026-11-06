@@ -1,0 +1,18 @@
+[project]
+name = "com490"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "trino",
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+include = ["com490*"]
+
+[tool.setuptools.editable-extensions]
+
+extra-paths = [
+    "/opt/spark/python/",
+    "/opt/spark/python/lib/py4j-0.10.9.7-src.zip"
+]
